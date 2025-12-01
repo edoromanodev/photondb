@@ -1,0 +1,2 @@
+# PhotonDB uses only Python stdlib
+# No external dependencies required
