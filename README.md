@@ -19,7 +19,7 @@ PhotonDB is a IN-MEMORY DB written in Python. It is Perfect for learning how dat
 ## Installation
 
 ```bash
-git clone https://github.com/yourusername/photondb.git
+git clone https://github.com/edoromanodev/photondb.git
 cd photondb
 python src/run.py
 ```
