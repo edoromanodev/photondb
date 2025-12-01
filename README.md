@@ -4,7 +4,7 @@ A database in pure Python with zero dependencies.
 
 ## What is it?
 
-PhotonDB is a IN-MEMORY DB written by me from scratch in Python. It is Perfect for learning how databases work, rapid prototyping, or using as a local cache without complications.
+PhotonDB is a IN-MEMORY DB written in Python. It is Perfect for learning how databases work, rapid prototyping, or using as a local cache without complications.
 
 ## Features
 
