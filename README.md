@@ -1,6 +1,6 @@
 # PhotonDB (in-memory)
 
-A database in pure Python. Zero dependencies, maximum simplicity.
+A database in pure Python with zero dependencies.
 
 ## What is it?
 
