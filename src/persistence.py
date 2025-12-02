@@ -42,10 +42,12 @@ class PersistenceManager:
         """
         
         try:
-            # Serializza il database
+
+            """ open file in write"""
+          
             snapshot_data = self._serialize_db(photon_db)
             
-            # Scrivi su file
+     
             with open(self.rdb_path, 'w') as f:
                 json.dump(snapshot_data, f, indent=2)
             
@@ -156,4 +158,5 @@ class PersistenceManager:
             
             if redis_value.ttl_ms is not None:
                 import heapq
+
                 heapq.heappush(photon_db.expiry_heap, (redis_value.ttl_ms, key))
